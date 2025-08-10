@@ -3,7 +3,7 @@
 [![nemdull's GitHub stats](https://github-readme-stats.vercel.app/api?username=nemdull&count_private=true&show_icons=true&theme=radical)](https://github.com/nemdull/github-readme-stats)
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=nemdull)](https://github.com/nemdull/github-readme-stats)
 
-[![trophy](https://github-profile-trophy.vercel.app/?username=nemdull)](https://github.com/nemdull/github-profile-trophy)
+[![trophy](https://github-profile-trophy.vercel.app/?username=nemdull&column=7)](https://github.com/nemdull/github-profile-trophy)
 
 <!--
 **nemdull/nemdull** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
