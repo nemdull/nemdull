@@ -7,6 +7,8 @@
 
 ---
 
+[![LinkedIn Badge](https://img.shields.io/badge/LinkedIn-nemdull-blue?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nemdull/)
+
 ## 🚀 自己紹介
 
 現在は、**Oracle APEX**、**PL/SQL**、**React**、**TypeScript** を活用したアプリケーション開発を行い、システムの効率化や自動化を進めています。また、テスト自動化やパートナー企業との連携業務にも積極的に関与しています。
