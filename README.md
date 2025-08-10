@@ -1,4 +1,4 @@
-# 👋 こんにちは、nemdullです！
+# 👋 HELLO、I'm nemdull
 
 [![nemdull's GitHub stats](https://github-readme-stats.vercel.app/api?username=nemdull&count_private=true&show_icons=true&theme=radical)](https://github.com/nemdull/github-readme-stats)
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=nemdull)](https://github.com/nemdull/github-readme-stats)
