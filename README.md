@@ -8,6 +8,7 @@
 ---
 
 [![LinkedIn Badge](https://img.shields.io/badge/LinkedIn-nemdull-blue?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nemdull/)
+[![Qiita Badge](https://img.shields.io/badge/Qiita-nemdull-green?style=flat-square&logo=qiita&logoColor=white)](https://qiita.com/nemdull)
 
 ## 🚀 自己紹介
 
