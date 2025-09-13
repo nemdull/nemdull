@@ -1,9 +1,8 @@
 # 👋 HELLO、I'm nemdull
 
-[![nemdull's GitHub stats](https://github-readme-stats.vercel.app/api?username=nemdull&count_private=true&show_icons=true&theme=radical)](https://github.com/nemdull/github-readme-stats)
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=nemdull)](https://github.com/nemdull/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=nemdull&layout=compact&theme=radical)](https://github.com/anuraghazra/github-readme-stats)
 
-[![trophy](https://github-profile-trophy.vercel.app/?username=nemdull&column=7)](https://github.com/nemdull/github-profile-trophy)
+[![trophy](https://github-profile-trophy.vercel.app/?username=nemdull&column=7&theme=radical)](https://github.com/ryo-ma/github-profile-trophy)
 
 ---
 
@@ -16,31 +15,31 @@
 
 ## 🔧 使用スキルと技術
 
-- **プログラミング言語**: 
-  - **PL/SQL** (データベース開発)
-  - **TypeScript** / **JavaScript** (フロントエンド開発)
-  - **Python** (スクリプトやバックエンド開発)
+- **プログラミング言語**  
+  - **PL/SQL** (データベース開発)  
+  - **TypeScript** / **JavaScript** (フロントエンド開発)  
+  - **Python** (スクリプトやバックエンド開発)  
 
-- **フレームワーク**:
-  - **React** (UI開発)
-  - **Oracle APEX** (ローコード開発)
+- **フレームワーク**  
+  - **React** (UI開発)  
+  - **Oracle APEX** (ローコード開発)  
 
-- **テスト・自動化**:
-  - **Playwright** / **Jest** (テスト自動化)
-  - **GitHub Actions** (CI/CD)
+- **テスト・自動化**  
+  - **Playwright** / **Jest** (テスト自動化)  
+  - **GitHub Actions** (CI/CD)  
 
-- **クラウド技術**:
-  - **AWS** (Lambda、S3、CloudWatch)
+- **クラウド技術**  
+  - **AWS** (Lambda、S3、CloudWatch)  
 
-- **その他ツール**:
+- **その他ツール**  
   - **JIRA**, **Confluence**, **Bitbucket**, **Slack**（コラボレーションツール）
 
 ## 🚀 現在の取り組み
 
-- **不動産業界向けの業務システム開発**に従事しており、ローコードツール（**Oracle APEX**）を使用したUI開発や、データベース処理を**PL/SQL**で実装。
-- **React** と **TypeScript** を活用して、再利用可能なコンポーネントの設計・実装を行い、保守性の向上を図っています。
-- **Playwright** と **Jest** を使用したテスト自動化の導入を推進し、CI/CDのパイプラインを整備しています。
-- **AWS**を利用したクラウドインフラの構築や運用に関わり、システムの最適化に貢献しています。
+- **不動産業界向けの業務システム開発**に従事しており、ローコードツール（**Oracle APEX**）を使用したUI開発や、データベース処理を**PL/SQL**で実装。  
+- **React** と **TypeScript** を活用して、再利用可能なコンポーネントの設計・実装を行い、保守性の向上を図っています。  
+- **Playwright** と **Jest** を使用したテスト自動化の導入を推進し、CI/CDのパイプラインを整備しています。  
+- **AWS**を利用したクラウドインフラの構築や運用に関わり、システムの最適化に貢献しています。  
 
 ## 📚 主なプロジェクト
 
@@ -53,12 +52,13 @@
 ### **テスト自動化スイート**
 - **Playwright** と **Jest** を使用して、テスト自動化のスイートを構築。CI環境に組み込み、テストの迅速化と品質向上を実現しました。
 
-## 📈 GitHub Stats
+## 📈 GitHub Insights
 
-[![nemdull's GitHub stats](https://github-readme-stats.vercel.app/api?username=nemdull&count_private=true&show_icons=true&theme=radical)](https://github.com/nemdull/github-readme-stats)
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=nemdull)](https://github.com/nemdull/github-readme-stats)
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=nemdull&theme=radical)
 
-[![trophy](https://github-profile-trophy.vercel.app/?username=nemdull&column=7)](https://github.com/nemdull/github-profile-trophy)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=nemdull&layout=compact&theme=radical)
+
+[![trophy](https://github-profile-trophy.vercel.app/?username=nemdull&column=7&theme=radical)](https://github.com/ryo-ma/github-profile-trophy)
 
 ## 🤝 つながりましょう！
 - 💼 LinkedIn: [nemdull](https://www.linkedin.com/in/nemdull/)
@@ -67,7 +67,6 @@
 
 ### 🌟 その他の情報
 
-- 💻 **フロントエンド**と**バックエンド**の技術に深い関心を持っており、常に新しい技術を学んでいます。
-- 🚴‍♂️ 休日は**サイクリング**を楽しみながら、リフレッシュしています。
-- 📚 新しい**自動化手法**や**クラウド技術**の習得に積極的です。
-
+- 💻 **フロントエンド**と**バックエンド**の技術に深い関心を持っており、常に新しい技術を学んでいます。  
+- 🚴‍♂️ 休日は**サイクリング**を楽しみながら、リフレッシュしています。  
+- 📚 新しい**自動化手法**や**クラウド技術**の習得に積極的です。  
