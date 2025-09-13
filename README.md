@@ -27,13 +27,6 @@
   <img src="https://github-profile-trophy.vercel.app/?username=nemdull&column=7&theme=radical" alt="Trophy"/>
 </p>
 
----
-
-<!-- 🌐 面白いガジェット: 3D貢献グラフ -->
-<p align="center">
-  <img src="https://raw.githubusercontent.com/nemdull/nemdull/output/github-contribution-grid-snake.svg" alt="Snake animation"/>
-</p>
-
 <!-- ⏰ GitHub活動タイムゾーン -->
 <p align="center">
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=nemdull&theme=radical&utcOffset=9" alt="productive time"/>
