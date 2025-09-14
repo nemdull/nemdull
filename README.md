@@ -88,7 +88,7 @@ I build business apps with Oracle APEX + PL/SQL and React + TypeScript, focusing
   Playwright + Jest + GitHub Actions。差分検知で重要導線を優先実行、速度と安定性を両立。  
   Playwright/Jest on CI; critical-path prioritization for speed & stability.
 
-<details>
+
 
 
   <!-- Activity Graph（軽量テーマ推奨） -->
@@ -100,7 +100,7 @@ I build business apps with Oracle APEX + PL/SQL and React + TypeScript, focusing
   <p align="center">
     <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=nemdull&theme=radical" alt="Most Commit Language" />
   </p>
-</details>
+
 
 <!-- JP: Snakeアニメ（Actions必須） / EN: Snake animation (requires Actions) -->
 <p align="center">
