@@ -107,6 +107,10 @@ I build business apps with Oracle APEX + PL/SQL and React + TypeScript, focusing
   <img src="https://raw.githubusercontent.com/nemdull/nemdull/output/github-contribution-grid-snake.svg" alt="Snake animation"/>
 </p>
 
+## 📝 Latest Posts / 最近の投稿
+<!-- posts:start -->
+<!-- posts:end -->
+
 
 ---
 
