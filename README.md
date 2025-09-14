@@ -12,6 +12,24 @@ A product-minded engineer across frontend, backend, and low-code. Love reusable 
 
 ---
 
+## 📝 Latest Posts / 最近の投稿
+<!-- posts:start -->
+- 2025-08-25 - [undefined](https://qiita.com/nemdull/items/c51875f636e074358d1e)
+- 2025-08-24 - [undefined](https://qiita.com/nemdull/items/4a6a9df723fefad6c0bc)
+- 2025-08-18 - [undefined](https://qiita.com/nemdull/items/c48da157ee8f56898cba)
+- 2025-08-17 - [undefined](https://qiita.com/nemdull/items/e05dab689a718b6f91cf)
+<!-- posts:end -->
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=nemdull&theme=rogue" height="200"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=nemdull&theme=radical" height="200"/>
+</p>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/nemdull/nemdull/output/github-contribution-grid-snake.svg" alt="Snake animation"/>
+</p>
+
+---
+
 ## 📊 GitHub Insights / 統計
 <p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=nemdull&theme=radical" height="140"/>
@@ -65,24 +83,6 @@ I build business apps with Oracle APEX + PL/SQL and React + TypeScript, focusing
 - **テスト自動化スイート / Test Automation Suite**  
   Playwright + Jest + GitHub Actions。差分検知で重要導線を優先実行、速度と安定性を両立。  
   Playwright/Jest on CI; critical-path prioritization for speed & stability.
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=nemdull&theme=rogue" height="200"/>
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=nemdull&theme=radical" height="200"/>
-</p>
-<p align="center">
-  <img src="https://raw.githubusercontent.com/nemdull/nemdull/output/github-contribution-grid-snake.svg" alt="Snake animation"/>
-</p>
-
----
-
-## 📝 Latest Posts / 最近の投稿
-<!-- posts:start -->
-- 2025-08-25 - [『初めてのGo言語 第2版』読書＆学習ログ（第3章）](https://qiita.com/nemdull/items/c51875f636e074358d1e)
-- 2025-08-24 - [『初めてのGo言語 第2版』読書＆学習ログ（第1〜2章）](https://qiita.com/nemdull/items/4a6a9df723fefad6c0bc)
-- 2025-08-18 - [OSSのためにプログラマーでない人ができること](https://qiita.com/nemdull/items/c48da157ee8f56898cba)
-- 2025-08-17 - [初めてのOSSコミットをFirst Contributionsでしてみた](https://qiita.com/nemdull/items/e05dab689a718b6f91cf)
-<!-- posts:end -->
 
 ---
 
