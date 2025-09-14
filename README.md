@@ -22,7 +22,6 @@ A product-minded engineer across frontend, backend, and low-code. Love reusable 
 
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=nemdull&theme=rogue" height="200"/>
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=nemdull&theme=radical" height="200"/>
 </p>
 <p align="center">
   <img src="https://raw.githubusercontent.com/nemdull/nemdull/output/github-contribution-grid-snake.svg" alt="Snake animation"/>
@@ -41,6 +40,7 @@ A product-minded engineer across frontend, backend, and low-code. Love reusable 
 </p>
 <p align="center">
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=nemdull&theme=radical&utcOffset=9" height="140"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=nemdull&theme=radical" height="200"/>
 </p>
 <p align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=nemdull&theme=radical&column=6&margin-w=5&margin-h=5"/>
