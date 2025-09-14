@@ -1,51 +1,34 @@
-# 👋 HELLO、I'm nemdull  
+# 👋 HELLO, I'm nemdull  
 **フルスタック寄りのアプリ/業務システム開発者。再利用可能なUIとテスト自動化が好き。**  
 A product-minded engineer across frontend, backend, and low-code. Love reusable UI and test automation.
 
-<!-- 🌐 Big SNS / Contact -->
+<!-- 🌐 SNS / Contact -->
 <p align="center">
-  <a href="https://www.linkedin.com/in/nemdull/">
-    <img src="https://img.shields.io/badge/LinkedIn-nemdull-blue?style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a>
-  <a href="https://qiita.com/nemdull">
-    <img src="https://img.shields.io/badge/Qiita-nemdull-green?style=for-the-badge&logo=qiita&logoColor=white" />
-  </a>
-  <a href="https://sites.google.com/view/nemdull/">
-    <img src="https://img.shields.io/badge/Portfolio-sites.google.com/nemdull-111111?style=for-the-badge&logo=googlechrome&logoColor=white" />
-  </a>
-</p>
-
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=nemdull&style=flat-square" alt="profile views" />
-  <img src="https://img.shields.io/github/followers/nemdull?style=flat-square&label=Followers" alt="followers" />
+  <a href="https://www.linkedin.com/in/nemdull/"><img src="https://img.shields.io/badge/LinkedIn-nemdull-blue?style=flat&logo=linkedin&logoColor=white" /></a>
+  <a href="https://qiita.com/nemdull"><img src="https://img.shields.io/badge/Qiita-nemdull-green?style=flat&logo=qiita&logoColor=white" /></a>
+  <a href="https://sites.google.com/view/nemdull/"><img src="https://img.shields.io/badge/Portfolio-nemdull-111111?style=flat&logo=googlechrome&logoColor=white" /></a>
+  <img src="https://komarev.com/ghpvc/?username=nemdull&style=flat-square" alt="views"/>
+  <img src="https://img.shields.io/github/followers/nemdull?style=flat-square&label=Followers" alt="followers"/>
 </p>
 
 ---
 
 ## 📊 GitHub Insights / 統計
-<!-- 1段目：強いビジュアル -->
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=nemdull&theme=radical" alt="GitHub Streak" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=nemdull&theme=radical" height="140"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=nemdull&theme=radical" height="140"/>
+</p>
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=nemdull&layout=compact&theme=radical" height="140"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=nemdull&theme=radical" height="140"/>
+</p>
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=nemdull&theme=radical&utcOffset=9" height="140"/>
+</p>
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=nemdull&theme=radical&column=6&margin-w=5&margin-h=5"/>
 </p>
 
-<!-- 2段目：言語・活動時間 -->
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=nemdull&layout=compact&theme=radical" alt="Top Langs" />
-</p>
-<p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=nemdull&theme=radical&utcOffset=9" alt="Productive Time (JST)" />
-</p>
-
-<!-- 3段目：サマリー・リポジトリ分布 -->
-<p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=nemdull&theme=radical" alt="Summary Stats" />
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=nemdull&theme=radical" alt="Repos per Language" />
-</p>
-
-<!-- 4段目：トロフィー -->
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=nemdull&column=7&theme=radical" alt="Trophies" />
-</p>
 
 ---
 
