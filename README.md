@@ -78,7 +78,10 @@ I build business apps with Oracle APEX + PL/SQL and React + TypeScript, focusing
 
 ## 📝 Latest Posts / 最近の投稿
 <!-- posts:start -->
-
+- 2025-08-25 - [『初めてのGo言語 第2版』読書＆学習ログ（第3章）](https://qiita.com/nemdull/items/c51875f636e074358d1e)
+- 2025-08-24 - [『初めてのGo言語 第2版』読書＆学習ログ（第1〜2章）](https://qiita.com/nemdull/items/4a6a9df723fefad6c0bc)
+- 2025-08-18 - [OSSのためにプログラマーでない人ができること](https://qiita.com/nemdull/items/c48da157ee8f56898cba)
+- 2025-08-17 - [初めてのOSSコミットをFirst Contributionsでしてみた](https://qiita.com/nemdull/items/e05dab689a718b6f91cf)
 <!-- posts:end -->
 
 ---
