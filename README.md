@@ -89,7 +89,7 @@ I build business apps with Oracle APEX + PL/SQL and React + TypeScript, focusing
   Playwright/Jest on CI; critical-path prioritization for speed & stability.
 
 <details>
-  <summary><b>More metrics / さらに統計を見る</b></summary>
+
 
   <!-- Activity Graph（軽量テーマ推奨） -->
   <p align="center">
