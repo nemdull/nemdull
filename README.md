@@ -14,10 +14,6 @@ A product-minded engineer across frontend, backend, and low-code. Love reusable 
 
 ## 📝 Latest Posts / 最近の投稿
 <!-- posts:start -->
-- 2025-08-25 - [undefined](https://qiita.com/nemdull/items/c51875f636e074358d1e)
-- 2025-08-24 - [undefined](https://qiita.com/nemdull/items/4a6a9df723fefad6c0bc)
-- 2025-08-18 - [undefined](https://qiita.com/nemdull/items/c48da157ee8f56898cba)
-- 2025-08-17 - [undefined](https://qiita.com/nemdull/items/e05dab689a718b6f91cf)
 <!-- posts:end -->
 
 <p align="center">
