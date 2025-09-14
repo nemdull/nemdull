@@ -102,6 +102,12 @@ I build business apps with Oracle APEX + PL/SQL and React + TypeScript, focusing
   </p>
 </details>
 
+<!-- JP: Snakeアニメ（Actions必須） / EN: Snake animation (requires Actions) -->
+<p align="center">
+  <img src="https://raw.githubusercontent.com/nemdull/nemdull/output/github-contribution-grid-snake.svg" alt="Snake animation"/>
+</p>
+
+
 ---
 
 ## 🎯 Now / 現在フォーカスしていること
