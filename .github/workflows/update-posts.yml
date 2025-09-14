@@ -1,0 +1,58 @@
+name: Update Posts
+on:
+  schedule: [{ cron: "0 */12 * * *" }]  # 12hごと / every 12h
+  workflow_dispatch:
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install deps
+        run: npm i xml2js node-fetch@2
+
+      - name: Generate posts
+        id: gen
+        run: |
+          node - <<'NODE'
+          const fs = require('fs');
+          const fetch = require('node-fetch');
+          const xml2js = require('xml2js');
+
+          const README = 'README.md';
+          const START = '<!-- posts:start -->';
+          const END   = '<!-- posts:end -->';
+          const QIITA_FEED = 'https://qiita.com/nemdull/feed'; // ここを自分に
+
+          async function fetchQiita() {
+            const res = await fetch(QIITA_FEED);
+            const xml = await res.text();
+            const data = await xml2js.parseStringPromise(xml);
+            const items = (data.feed.entry || []).slice(0, 5);
+            return items.map(e => {
+              const title = e.title[0]._;
+              const link = e.link[0].$.href;
+              const date = (e.updated?.[0] || e.published?.[0] || '').slice(0,10);
+              return `- ${date} - [${title}](${link})`;
+            }).join('\n');
+          }
+
+          (async () => {
+            const list = await fetchQiita();
+            let md = fs.readFileSync(README,'utf8');
+            const block = `${START}\n${list}\n${END}`;
+            md = md.replace(new RegExp(`${START}[\\s\\S]*?${END}`,'m'), block);
+            fs.writeFileSync(README, md);
+          })().catch(err => { console.error(err); process.exit(1); });
+          NODE
+
+      - name: Commit & Push
+        run: |
+          git config user.name  "nemdull-bot"
+          git config user.email "47370873+nemdull@users.noreply.github.com"
+          git diff --quiet || (git add README.md && git commit -m "chore: update posts" && git push)
