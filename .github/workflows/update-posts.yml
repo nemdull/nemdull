@@ -1,7 +1,13 @@
 name: Update Posts
+
 on:
-  schedule: [{ cron: "0 */12 * * *" }]  # 12hごと / every 12h
   workflow_dispatch:
+  schedule:
+    - cron: "0 */12 * * *"   # 12時間おき
+
+permissions:
+  contents: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -17,7 +23,6 @@ jobs:
         run: npm i xml2js node-fetch@2
 
       - name: Generate posts
-        id: gen
         run: |
           node - <<'NODE'
           const fs = require('fs');
@@ -27,26 +32,52 @@ jobs:
           const README = 'README.md';
           const START = '<!-- posts:start -->';
           const END   = '<!-- posts:end -->';
-          const QIITA_FEED = 'https://qiita.com/nemdull/feed'; // ここを自分に
+          const FEED  = 'https://qiita.com/nemdull/feed'; // ← あなたのIDに
 
-          async function fetchQiita() {
-            const res = await fetch(QIITA_FEED);
-            const xml = await res.text();
-            const data = await xml2js.parseStringPromise(xml);
-            const items = (data.feed.entry || []).slice(0, 5);
-            return items.map(e => {
-              const title = e.title[0]._;
-              const link = e.link[0].$.href;
-              const date = (e.updated?.[0] || e.published?.[0] || '').slice(0,10);
-              return `- ${date} - [${title}](${link})`;
-            }).join('\n');
-          }
+          const getText = (node) => {
+            if (!node) return '';
+            const v = Array.isArray(node) ? node[0] : node;
+            if (typeof v === 'string') return v.trim();
+            if (v && typeof v._ === 'string') return v._.trim();
+            return '';
+          };
+
+          const getLink = (entry) => {
+            const links = entry.link || [];
+            const arr = Array.isArray(links) ? links : [links];
+            const alt = arr.find(l => l && l.$ && (!l.$.rel || l.$.rel === 'alternate'));
+            if (alt?.$?.href) return alt.$.href;
+            const first = arr[0];
+            if (typeof first === 'string') return first;
+            if (first?.$?.href) return first.$.href;
+            return '';
+          };
+
+          const getDate = (entry) => {
+            const raw = getText(entry.updated) || getText(entry.published);
+            if (!raw) return '';
+            const d = new Date(raw);
+            return isNaN(d) ? raw.slice(0,10) : d.toISOString().slice(0,10);
+          };
 
           (async () => {
-            const list = await fetchQiita();
-            let md = fs.readFileSync(README,'utf8');
-            const block = `${START}\n${list}\n${END}`;
-            md = md.replace(new RegExp(`${START}[\\s\\S]*?${END}`,'m'), block);
+            const res = await fetch(FEED);
+            if (!res.ok) throw new Error('Failed to fetch feed: ' + res.status);
+            const xml = await res.text();
+            const data = await xml2js.parseStringPromise(xml, { trim: true, normalize: true });
+
+            const entries = data?.feed?.entry ?? [];
+            const items = entries.slice(0,5).map(e => {
+              const title = getText(e.title) || '(No title)';
+              const link  = getLink(e) || '#';
+              const date  = getDate(e) || '';
+              return `- ${date} - [${title}](${link})`;
+            }).join('\n');
+
+            let md = fs.readFileSync(README, 'utf8');
+            const block = `${START}\n${items}\n${END}`;
+            const re = new RegExp(`${START}[\\s\\S]*?${END}`, 'm');
+            md = re.test(md) ? md.replace(re, block) : (md + `\n\n${block}\n`);
             fs.writeFileSync(README, md);
           })().catch(err => { console.error(err); process.exit(1); });
           NODE
