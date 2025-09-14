@@ -40,7 +40,7 @@ A product-minded engineer across frontend, backend, and low-code. Love reusable 
 </p>
 <p align="center">
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=nemdull&theme=radical&utcOffset=9" height="140"/>
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=nemdull&theme=radical" height="200"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=nemdull&theme=radical" height="140"/>
 </p>
 <p align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=nemdull&theme=radical&column=6&margin-w=5&margin-h=5"/>
