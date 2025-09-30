@@ -7,9 +7,11 @@ A product-minded engineer across frontend, backend, and low-code. Love reusable 
   <a href="https://qiita.com/nemdull"><img src="https://img.shields.io/badge/Qiita-nemdull-green?style=flat&logo=qiita&logoColor=white"/></a>
   <a href="https://zenn.dev/nemdull"><img src="https://img.shields.io/badge/Zenn-nemdull-3EA8FF?style=flat&logo=zenn&logoColor=white"/></a>
   <a href="https://sites.google.com/view/nemdull/"><img src="https://img.shields.io/badge/Portfolio-nemdull-111111?style=flat&logo=googlechrome&logoColor=white"/></a>
+  <a href="https://findy-code.io/skills-share/6l9E_223HPNgn"><img src="https://img.shields.io/badge/Findy%20Skill-nemdull-FF5722?style=flat&logo=readthedocs&logoColor=white"/></a>
   <img src="https://komarev.com/ghpvc/?username=nemdull&style=flat-square" alt="views"/>
   <img src="https://img.shields.io/github/followers/nemdull?style=flat-square&label=Followers" alt="followers"/>
 </p>
+
 
 
 ---
