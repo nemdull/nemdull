@@ -1,102 +1,127 @@
-# 👋 HELLO, I'm nemdull  
+<!-- README.md -->
+
+<div align="center">
+
+# 👋 Hey there, I'm **nemdull**
 **フルスタック寄りのアプリ/業務システム開発者。再利用可能なUIとテスト自動化が好き。**  
-A product-minded engineer across frontend, backend, and low-code. Love reusable UI and test automation.
+*A product-minded engineer working across frontend, backend, and low-code — passionate about reusable UI and test automation.*
+
+💪 **Quality × Velocity** ｜ ♻️ **Reusable UI** ｜ 🤖 **Automated QA** ｜ ☁️ **Serverless & AI Ready**
+
+---
+
+## 🌐 Connect with Me
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/nemdull/"><img src="https://img.shields.io/badge/LinkedIn-nemdull-blue?style=flat&logo=linkedin&logoColor=white"/></a>
-  <a href="https://qiita.com/nemdull"><img src="https://img.shields.io/badge/Qiita-nemdull-green?style=flat&logo=qiita&logoColor=white"/></a>
-  <a href="https://zenn.dev/nemdull"><img src="https://img.shields.io/badge/Zenn-nemdull-3EA8FF?style=flat&logo=zenn&logoColor=white"/></a>
-  <a href="https://www.nemdull.com/"><img src="https://img.shields.io/badge/Portfolio-nemdull-111111?style=flat&logo=googlechrome&logoColor=white"/></a>
-  <a href="https://findy-code.io/skills-share/6l9E_223HPNgn"><img src="https://img.shields.io/badge/Findy%20Skill-nemdull-FF5722?style=flat&logo=readthedocs&logoColor=white"/></a>
-  <img src="https://komarev.com/ghpvc/?username=nemdull&style=flat-square" alt="views"/>
-  <img src="https://img.shields.io/github/followers/nemdull?style=flat-square&label=Followers" alt="followers"/>
+  <a href="https://www.linkedin.com/in/nemdull/"><img src="https://img.shields.io/badge/-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+  <a href="https://qiita.com/nemdull"><img src="https://img.shields.io/badge/-Qiita-55C500?style=for-the-badge&logo=qiita&logoColor=white"/></a>
+  <a href="https://zenn.dev/nemdull"><img src="https://img.shields.io/badge/-Zenn-3EA8FF?style=for-the-badge&logo=zenn&logoColor=white"/></a>
+  <a href="https://www.nemdull.com/"><img src="https://img.shields.io/badge/-Portfolio-000?style=for-the-badge&logo=google-chrome&logoColor=white"/></a>
+  <a href="https://findy-code.io/skills-share/6l9E_223HPNgn"><img src="https://img.shields.io/badge/-Findy%20Skill-FF5722?style=for-the-badge&logo=readthedocs&logoColor=white"/></a>
 </p>
+
+<img src="https://komarev.com/ghpvc/?username=nemdull&style=flat-square&label=Profile+Views" alt="views"/>　
+<img src="https://img.shields.io/github/followers/nemdull?style=flat-square&label=Followers"/>
+
+---
+
+## 📊 Quick Stats
+
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=nemdull&theme=tokyonight" height="150"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=nemdull&layout=compact&theme=tokyonight&hide_border=true" height="150"/>
+</p>
+
+</div>
 
 ---
 
 ## 📝 Latest Posts / 最近の投稿
+
 <!-- posts:start -->
 - 2025-09-15 - [Go言語で気づいたシンプル設計の真髄 ─ Rails・Java経験者がハマったポイントまとめ](https://qiita.com/nemdull/items/7ff73572ccc3c78d311d)
-- 2025-08-25 - [『初めてのGo言語 第2版』読書＆学習ログ（第3章）](https://qiita.com/nemdull/items/c51875f636e074358d1e)
 - 2025-09-16 - [『初めてのGo言語 第2版』読書＆学習ログ（第1〜2章）](https://qiita.com/nemdull/items/4a6a9df723fefad6c0bc)
+- 2025-08-25 - [『初めてのGo言語 第2版』読書＆学習ログ（第3章）](https://qiita.com/nemdull/items/c51875f636e074358d1e)
 - 2025-08-18 - [OSSのためにプログラマーでない人ができること](https://qiita.com/nemdull/items/c48da157ee8f56898cba)
 <!-- posts:end -->
 
+---
+
+## 📦 Pinned Repositories / 注目リポジトリ
+
+<div align="center">
+
+| Repository | Description | Tech Stack |
+|-------------|--------------|------------|
+| 🎨 [**sakujiru-app**](https://github.com/nemdull/sakujiru-app) | 作画投稿Webアプリ「Sakujiru」。作字クリエイター支援を目的とした創作投稿プラットフォーム。 | JavaScript |
+| 🚀 [**sf-meter**](https://github.com/nemdull/sf-meter) | SFの進化速度を可視化するWebアプリ「sf-meter」のメインリポジトリ。 | TypeScript / Go |
+| 💻 [**profile_site**](https://github.com/nemdull/profile_site) | Reactで構築したポートフォリオサイト。Vercelでホスティング中。 | TypeScript / React |
+| 🧩 [**atcoder**](https://github.com/nemdull/atcoder) | 競技プログラミング・コーディングテスト対策コード集。 | Java |
+| ✍️ [**zenn**](https://github.com/nemdull/zenn) | Zenn用記事・草稿の管理リポジトリ。Git連携で自動公開。 | Markdown / CLI |
+
+</div>
+
+---
+
+## 💼 Work Experience / 職務経歴
+
+### 💻 業務アプリケーション開発・保守（2024 – 現在）
+業務系Webアプリケーションの設計・実装・運用を担当。  
+**Oracle APEX / PL/SQL / React / TypeScript / AWS** を中心に、  
+UI開発・テスト自動化・CI/CD改善などを通して開発品質を向上。
+
+- 管理画面の新規・改修開発（要件整理〜リリースまで一貫対応）  
+- **E2E自動テスト導入（Playwright / Jest）** による回帰工数削減  
+- **CI/CDパイプラインの高速化**（並列実行・キャッシュ最適化）  
+- **ログ監視・権限制御設計** の標準化で保守性を向上  
+- チーム内のナレッジ共有・技術記事執筆による横展開  
+
+> 🏆 テスト自動化によりリリース検証時間を約40%短縮。  
+> 📚 継続的な改善提案と技術発信を通じ、開発プロセスを最適化。
+
+---
+
+### 🧩 個人開発・技術発信
+- React / Go / Node.js を用いたWebアプリ開発（Sakujiru, sf-meterなど）  
+- Playwright・生成AIを活用した開発効率化ツールの検証  
+- Qiita / Zenn にて技術記事を執筆（累計2,000PV超）
+
+---
+
+## 🛠 Tech Stack / 使用技術
+
+| Category | Tools / Tech |
+|-----------|--------------|
+| 🖥 **Frontend** | React, TypeScript, RJSF, Storybook |
+| 🧮 **Backend** | Oracle APEX, PL/SQL, Node.js, Python |
+| 🧪 **Test** | Playwright, Jest, Istanbul/nyc, GitHub Actions |
+| ☁️ **Cloud / Infra** | AWS (Lambda, API Gateway, RDS, S3, CloudWatch), Docker |
+| 🧰 **Ops / Collab** | JIRA, Confluence, Slack, Git, PR review, trunk-based dev |
+
+> **Principles:** SRP / CoC, regression-resistant tests, observable logs, reproducible ops
+
+---
+
+## 📊 Extended Insights
+
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=nemdull&theme=rogue" height="200"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=nemdull&theme=tokyonight" height="150"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=nemdull&theme=tokyonight&hide_border=true" height="150"/>
 </p>
+
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=nemdull&theme=tokyonight" height="150"/>
+  <img src="https://github-profile-trophy.vercel.app/?username=nemdull&theme=tokyonight&column=6&margin-w=5&margin-h=5" height="150"/>
+</p>
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=nemdull&theme=tokyo-night" height="200"/>
+</p>
+
 <p align="center">
   <img src="https://raw.githubusercontent.com/nemdull/nemdull/output/github-contribution-grid-snake.svg" alt="Snake animation"/>
 </p>
 
 ---
 
-## 📊 GitHub Insights / 統計
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=nemdull&theme=radical" height="140"/>
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=nemdull&theme=radical" height="140"/>
-</p>
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=nemdull&layout=compact&theme=radical" height="140"/>
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=nemdull&theme=radical" height="140"/>
-</p>
-<p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=nemdull&theme=radical&utcOffset=9" height="140"/>
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=nemdull&theme=radical" height="140"/>
-</p>
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=nemdull&theme=radical&column=6&margin-w=5&margin-h=5"/>
-</p>
-
----
-
-## 🧭 About Me / 自己紹介
-**業務システムを中心に、Oracle APEX + PL/SQL と React + TypeScript を両輪で開発。テスト自動化・CI/CDの整備で品質と速度を両立。**  
-I build business apps with Oracle APEX + PL/SQL and React + TypeScript, focusing on quality + speed via test automation and CI/CD.
-
-- **現職 / Current**：業務系Webアプリの開発・保守（APEX/PLSQL・React/TS・AWS）  
-  Building & maintaining enterprise web apps (APEX/PLSQL, React/TS, AWS).
-- **得意 / Strengths**：再利用可能なUI、検証容易な設計、E2E自動化、障害再現と根因分析  
-  Reusable UI, testable design, E2E automation, incident reproduction & RCA.
-- **関心 / Interests**：DX for QA、共通基盤・デザインシステム、サーバーレス、生成AI活用  
-  QA-DX, shared platforms/design systems, serverless, applied GenAI.
-
----
-
-## 🛠 Tech Stack / 使用技術
-- **Frontend**：React, TypeScript, RJSF, Storybook  
-- **Backend**：Oracle APEX, PL/SQL, Node.js, Python  
-- **Test**：Playwright, Jest, Coverage (Istanbul/nyc), CI with GitHub Actions  
-- **Cloud/Infra**：AWS (Lambda, API Gateway, S3, CloudWatch, RDS), Docker  
-- **Ops/Collab**：JIRA, Confluence, Slack, Git (PR review, trunk-based)
-
-> **方針 / Principles**：SRP/CoC、リグレッションに強い自動テスト、観測性ログ、再現性のある手順化  
-> Bias toward SRP/CoC, regression-resistant tests, observable logs, reproducible ops.
-
----
-
-## 🚀 Highlighted Work / 注目プロジェクト
-- **不動産管理システム / Real-estate Admin**  
-  APEX + React で入力/参照を分離し、PL/SQLで集計・権限制御。テスト自動化で回帰を短縮。  
-  Split input/view (APEX + React), PL/SQL for aggregation/authorization. Regression cut via E2E.
-- **Web管理UI / Internal Admin UI**  
-  再利用前提のReactコンポーネント群とStorybook。整備済みprops/アクセシビリティ指針。  
-  Reusable React components with Storybook; documented props & a11y guidelines.
-- **テスト自動化スイート / Test Automation Suite**  
-  Playwright + Jest + GitHub Actions。差分検知で重要導線を優先実行、速度と安定性を両立。  
-  Playwright/Jest on CI; critical-path prioritization for speed & stability.
-
----
-
-## 🎯 Now / 現在フォーカス
-- **E2E × 低保守コスト**：テストデータ自動生成・スクショ差分安定化  
-  E2E with low-maintenance fixtures & stable visual diffs
-- **APEXの設計標準化**：権限・動的アクション・ログの標準化  
-  Standard patterns for APEX auth, DA, logging
-- **CIの高速化**：並列・キャッシュ・影響範囲選択実行  
-  Faster CI with parallelism, caching, selective runs
-
----
-
-## 🤝 Connect / つながりましょう
-💼 [LinkedIn](https://www.linkedin.com/in/nemdull/) ｜ 📝 [Qiita](https://qiita.com/nemdull) ｜ 🌐 [Portfolio](https://www.nemdull.com/)
+<p align="center">✨ Thank you for visiting! ✨</p>
