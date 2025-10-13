@@ -105,11 +105,6 @@ UI開発・テスト自動化・CI/CD改善などを通して開発品質を向�
 ## 📊 Extended Insights
 
 <p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=nemdull&theme=tokyonight" height="150"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=nemdull&theme=tokyonight&hide_border=true" height="150"/>
-</p>
-
-<p align="center">
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=nemdull&theme=tokyonight" height="150"/>
   <img src="https://github-profile-trophy.vercel.app/?username=nemdull&theme=tokyonight&column=6&margin-w=5&margin-h=5" height="150"/>
 </p>
