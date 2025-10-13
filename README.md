@@ -16,6 +16,8 @@
   <a href="https://www.linkedin.com/in/nemdull/"><img src="https://img.shields.io/badge/-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
   <a href="https://qiita.com/nemdull"><img src="https://img.shields.io/badge/-Qiita-55C500?style=for-the-badge&logo=qiita&logoColor=white"/></a>
   <a href="https://zenn.dev/nemdull"><img src="https://img.shields.io/badge/-Zenn-3EA8FF?style=for-the-badge&logo=zenn&logoColor=white"/></a>
+  <a href="https://speakerdeck.com/nemdull"><img src="https://img.shields.io/badge/-Speaker%20Deck-009287?style=for-the-badge&logo=speakerdeck&logoColor=white"/></a>
+  <a href="https://connpass.com/user/nemdull/"><img src="https://img.shields.io/badge/-Connpass-EA4AAA?style=for-the-badge&logo=slideshare&logoColor=white"/></a>
   <a href="https://www.nemdull.com/"><img src="https://img.shields.io/badge/-Portfolio-000?style=for-the-badge&logo=google-chrome&logoColor=white"/></a>
   <a href="https://findy-code.io/skills-share/6l9E_223HPNgn"><img src="https://img.shields.io/badge/-Findy%20Skill-FF5722?style=for-the-badge&logo=readthedocs&logoColor=white"/></a>
 </p>
@@ -28,7 +30,7 @@
 ## 📊 Quick Stats
 
 <p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=nemdull&theme=tokyonight" height="150"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=nemdull&show_icons=true&hide_rank=true&theme=tokyonight&hide_border=true&count_private=true" height="150"/>
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=nemdull&layout=compact&theme=tokyonight&hide_border=true" height="150"/>
 </p>
 
@@ -84,7 +86,7 @@ UI開発・テスト自動化・CI/CD改善などを通して開発品質を向�
 ### 🧩 個人開発・技術発信
 - React / Go / Node.js を用いたWebアプリ開発（Sakujiru, sf-meterなど）  
 - Playwright・生成AIを活用した開発効率化ツールの検証  
-- Qiita / Zenn にて技術記事を執筆（累計2,000PV超）
+- Qiita / Zenn / Speaker Deck / Connpass にて技術記事・登壇発表を実施（累計2,000PV超）
 
 ---
 
@@ -97,6 +99,8 @@ UI開発・テスト自動化・CI/CD改善などを通して開発品質を向�
 | 🧪 **Test** | Playwright, Jest, Istanbul/nyc, GitHub Actions |
 | ☁️ **Cloud / Infra** | AWS (Lambda, API Gateway, RDS, S3, CloudWatch), Docker |
 | 🧰 **Ops / Collab** | JIRA, Confluence, Slack, Git, PR review, trunk-based dev |
+
+> **Principles:** SRP / CoC, regression-resistant tests, observable logs, reproducible ops
 
 ---
 
