@@ -98,8 +98,6 @@ UI開発・テスト自動化・CI/CD改善などを通して開発品質を向�
 | ☁️ **Cloud / Infra** | AWS (Lambda, API Gateway, RDS, S3, CloudWatch), Docker |
 | 🧰 **Ops / Collab** | JIRA, Confluence, Slack, Git, PR review, trunk-based dev |
 
-> **Principles:** SRP / CoC, regression-resistant tests, observable logs, reproducible ops
-
 ---
 
 ## 📊 Extended Insights
