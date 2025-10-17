@@ -118,7 +118,3 @@ UI開発・テスト自動化・CI/CD改善などを通して開発品質を向�
 <p align="center">
   <img src="https://raw.githubusercontent.com/nemdull/nemdull/output/github-contribution-grid-snake.svg" alt="Snake animation"/>
 </p>
-
----
-
-<p align="center">✨ Thank you for visiting! ✨</p>
