@@ -41,10 +41,10 @@
 ## 📝 Latest Posts / 最近の投稿
 
 <!-- posts:start -->
+- 2025-12-17 - [障害対応で学んだこと ― 保守・運用の現場で、実務を通じて理解が進んだこと ―](https://qiita.com/nemdull/items/460ff96a438317e69722)
 - 2025-12-12 - [Findy「開発組織のぷち改善ハッカソン」で Slack匿名お悩みBot を作った話 〜AI × Slack × Playwright で心理的安全性をちょっとだけ上げる〜](https://qiita.com/nemdull/items/a2d72e6a5d4e82161e00)
 - 2025-09-15 - [Go言語で気づいたシンプル設計の真髄 ─ Rails・Java経験者がハマったポイントまとめ](https://qiita.com/nemdull/items/7ff73572ccc3c78d311d)
 - 2025-08-25 - [『初めてのGo言語 第2版』読書＆学習ログ（第3章）](https://qiita.com/nemdull/items/c51875f636e074358d1e)
-- 2025-09-16 - [『初めてのGo言語 第2版』読書＆学習ログ（第1〜2章）](https://qiita.com/nemdull/items/4a6a9df723fefad6c0bc)
 <!-- posts:end -->
 
 ---
