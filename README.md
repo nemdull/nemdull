@@ -90,7 +90,7 @@
 ---
 
 ### 🧩 個人開発・技術発信
-- Expo（React Native）によるモバイルアプリ開発：**MonaBite**（Shipaton 2026 提出作）、**ニンメモ**（リリース準備中）、**ジンバフ**  
+- Expo（React Native）による個人向けモバイルアプリの開発（iOS／Android、リポジトリは非公開）  
 - React / Go / Rails を用いたWebアプリ開発（Sakujiru, sf-meter など）  
 - Findy「開発組織のぷち改善ハッカソン」で **Slack匿名お悩みBot**（LLM × Slack × Playwright）を1日で実装  
 - AWS Solutions Architect Professional 対策書（改訂2版）の共著に参加  
