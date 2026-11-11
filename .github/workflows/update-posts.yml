@@ -5,82 +5,25 @@ on:
   schedule:
     - cron: "0 */12 * * *"   # 12時間おき
 
+# このワークフローに渡す権限は、README の書き換えに必要な contents: write だけ
 permissions:
   contents: write
+
+concurrency:
+  group: update-posts
+  cancel-in-progress: false
 
 jobs:
   build:
     runs-on: ubuntu-latest
+    timeout-minutes: 5
     steps:
-      - uses: actions/checkout@v4
+      # 外部アクションはタグではなくコミットのハッシュで固定する（タグは後から書き換えられるため）
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
 
-      - name: Setup Node
-        uses: actions/setup-node@v4
-        with:
-          node-version: 20
-
-      - name: Install deps
-        run: npm i xml2js node-fetch@2
-
+      # npm のパッケージは入れない。ランナーに入っている Node だけでフィードを読む
       - name: Generate posts
-        run: |
-          node - <<'NODE'
-          const fs = require('fs');
-          const fetch = require('node-fetch');
-          const xml2js = require('xml2js');
-
-          const README = 'README.md';
-          const START = '<!-- posts:start -->';
-          const END   = '<!-- posts:end -->';
-          const FEED  = 'https://qiita.com/nemdull/feed'; // ← あなたのIDに
-
-          const getText = (node) => {
-            if (!node) return '';
-            const v = Array.isArray(node) ? node[0] : node;
-            if (typeof v === 'string') return v.trim();
-            if (v && typeof v._ === 'string') return v._.trim();
-            return '';
-          };
-
-          const getLink = (entry) => {
-            const links = entry.link || [];
-            const arr = Array.isArray(links) ? links : [links];
-            const alt = arr.find(l => l && l.$ && (!l.$.rel || l.$.rel === 'alternate'));
-            if (alt?.$?.href) return alt.$.href;
-            const first = arr[0];
-            if (typeof first === 'string') return first;
-            if (first?.$?.href) return first.$.href;
-            return '';
-          };
-
-          const getDate = (entry) => {
-            const raw = getText(entry.updated) || getText(entry.published);
-            if (!raw) return '';
-            const d = new Date(raw);
-            return isNaN(d) ? raw.slice(0,10) : d.toISOString().slice(0,10);
-          };
-
-          (async () => {
-            const res = await fetch(FEED);
-            if (!res.ok) throw new Error('Failed to fetch feed: ' + res.status);
-            const xml = await res.text();
-            const data = await xml2js.parseStringPromise(xml, { trim: true, normalize: true });
-
-            const entries = data?.feed?.entry ?? [];
-            const items = entries.slice(0,5).map(e => {
-              const title = getText(e.title) || '(No title)';
-              const link  = getLink(e) || '#';
-              const date  = getDate(e) || '';
-              return `- ${date} - [${title}](${link})`;
-            }).join('\n');
-
-            let md = fs.readFileSync(README, 'utf8');
-            const block = `${START}\n${items}\n${END}`;
-            const re = new RegExp(`${START}[\\s\\S]*?${END}`, 'm');
-            md = re.test(md) ? md.replace(re, block) : (md + `\n\n${block}\n`);
-            fs.writeFileSync(README, md);
-          })().catch(err => { console.error(err); process.exit(1); });
-          NODE
+        run: node .github/scripts/update-posts.mjs
 
       - name: Commit & Push
         run: |
