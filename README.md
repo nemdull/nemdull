@@ -67,26 +67,34 @@
 
 ## 💼 Work Experience / 職務経歴
 
-### 💻 業務アプリケーション開発・保守（2024 – 現在）
+### 🧭 保守・エンハンス案件のPL／PM補佐・生成AI施策（2026 – 現在）
+入社3年目から、会員向けWebシステムの保守・エンハンス案件で **プロジェクトリーダー** を担当。  
+要件整理・見積・顧客折衝・パートナー管理を一貫して担い、並行してLP開発案件のPM補佐と、生成AIの業務適用を推進。
+
+- PLとして保守・エンハンス案件を完遂。顧客から直接依頼を受ける窓口に  
+- パートナー成果物（見積・設計・実装）のレビューで不備を事前に検出し、手戻りを防止  
+- **生成AIを「誤らせない仕組みごと」業務に組み込む設計**（期待値の改変禁止・根拠必須・曖昧表現の自動検査）  
+- **AI向け設計書の整備（主担当）** と、E2Eテスト自動化への生成AI適用（チーム）  
+- 社内AI勉強会の立ち上げ・登壇、横展開用の共通パッケージ（観点テンプレート・運用マニュアル）を整備  
+
+### 💻 業務アプリケーション開発・保守（2024 – 2026/03）
 業務系Webアプリケーションの設計・実装・運用を担当。  
-**Oracle APEX / PL/SQL / React / TypeScript / AWS** を中心に、  
-UI開発・テスト自動化・CI/CD改善などを通して開発品質を向上。
+**Oracle APEX / PL/SQL / React / TypeScript / AWS** を中心に、UI開発・テスト自動化・運用整備を通して開発品質を向上。
 
 - 管理画面の新規・改修開発（要件整理〜リリースまで一貫対応）  
 - **E2E自動テスト導入（Playwright / Jest）** による回帰工数削減  
-- **CI/CDパイプラインの高速化**（並列実行・キャッシュ最適化）  
-- **ログ監視・権限制御設計** の標準化で保守性を向上  
+- Slack × Jira 運用ルールと障害報告テンプレートの整備  
+- 本番障害2件の原因特定と恒久対策。障害を「因果関係」で構造化し再発防止を仕組み化  
 - チーム内のナレッジ共有・技術記事執筆による横展開  
-
-> 🏆 テスト自動化によりリリース検証時間を約40%短縮。  
-> 📚 継続的な改善提案と技術発信を通じ、開発プロセスを最適化。
 
 ---
 
 ### 🧩 個人開発・技術発信
-- React / Go / Node.js を用いたWebアプリ開発（Sakujiru, sf-meterなど）  
-- Playwright・生成AIを活用した開発効率化ツールの検証  
-- Qiita / Zenn / Speaker Deck / Connpass にて技術記事・登壇発表を実施（累計2,000PV超）
+- Expo（React Native）による個人向けモバイルアプリの開発（iOS／Android、リポジトリは非公開）  
+- React / Go / Rails を用いたWebアプリ開発（Sakujiru, sf-meter など）  
+- Findy「開発組織のぷち改善ハッカソン」で **Slack匿名お悩みBot**（LLM × Slack × Playwright）を1日で実装  
+- AWS Solutions Architect Professional 対策書（改訂2版）の共著に参加  
+- Qiita / Zenn / Speaker Deck / Connpass にて技術記事・登壇発表を実施
 
 ---
 
@@ -94,9 +102,9 @@ UI開発・テスト自動化・CI/CD改善などを通して開発品質を向�
 
 | Category | Tools / Tech |
 |-----------|--------------|
-| 🖥 **Frontend** | React, TypeScript, RJSF, Storybook |
+| 🖥 **Frontend / Mobile** | React, TypeScript, Expo (React Native), RJSF, Storybook |
 | 🧮 **Backend** | Oracle APEX, PL/SQL, Node.js, Python |
-| 🧪 **Test** | Playwright, Jest, Istanbul/nyc, GitHub Actions |
+| 🧪 **Test / AI** | Playwright, Jest, Istanbul/nyc, GitHub Actions, Claude Code |
 | ☁️ **Cloud / Infra** | AWS (Lambda, API Gateway, RDS, S3, CloudWatch), Docker |
 | 🧰 **Ops / Collab** | JIRA, Confluence, Slack, Git, PR review, trunk-based dev |
 
