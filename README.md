@@ -1,35 +1,37 @@
-# nemdull（ねむだる）
+<p align="center">
+  <a href="https://www.nemdull.com/"><img src="./assets/header.svg" alt="ねむい。だるい。だから自動化する。" width="100%" /></a>
+</p>
 
-**面倒なことは、仕組みに任せる。**
+nemdull（ねむだる）です。金融系の SIer で、会員向け Web システムのプロジェクトリーダーをしています。
 
-金融系 SIer で、会員向け Web システムのプロジェクトリーダーをしているアプリケーションエンジニアです。人が何度も確かめなくて済むように、テストを自動化し、生成 AI には「誤らせない」ための決まりを組み込んでいます。
+同じ確認を手で何度も繰り返すのが苦手で、気づくとテストを書いて機械に任せています。最近は生成 AI にも手伝ってもらっていますが、テストを通すために期待値のほうを書き換えてしまうことがあるので、それをさせない決まりを作りました。
 
-_Application engineer and project lead at a financial systems integrator in Japan. I automate regression tests and build guardrails that keep generative AI from quietly rewriting the expected results._
+くわしいことは [nemdull.com](https://www.nemdull.com/) にまとめています。開くたびに自分で自分を点検するページで、隕石をぶつけて壊すこともできます。
 
-[ポートフォリオ](https://www.nemdull.com/) ｜ [X](https://x.com/nemdull) ｜ [Zenn](https://zenn.dev/nemdull) ｜ [Qiita](https://qiita.com/nemdull) ｜ [Speaker Deck](https://speakerdeck.com/nemdull) ｜ [connpass](https://connpass.com/user/nemdull/) ｜ [Findy Skills](https://findy-code.io/skills-share/6l9E_223HPNgn)
+ふだんは [X](https://x.com/nemdull) にいます。記事は [Qiita](https://qiita.com/nemdull) と [Zenn](https://zenn.dev/nemdull)、登壇の資料は [Speaker Deck](https://speakerdeck.com/nemdull)、参加した勉強会は [connpass](https://connpass.com/user/nemdull/)、スキルの偏り具合は [Findy](https://findy-code.io/skills-share/6l9E_223HPNgn) で見られます。
 
-## できること（根拠つき）
+## 置いてあるもの
 
-| できること | 根拠 |
+| リポジトリ | ひとこと |
 | --- | --- |
-| PL として、要件整理から見積・顧客折衝まで案件を回す | 会員向け Web システムの保守・エンハンス（業務、2026 年度から） |
-| 回帰テストを自動化して、手で確かめる回数を減らす | 管理画面の開発に Playwright と Jest を導入（業務） |
-| 生成 AI に、期待値を書き換えさせない | 改変の禁止・根拠の必須化・曖昧な表現の自動検査を設計し、社内勉強会で 2 回登壇（業務） |
-| 本番障害を、原因までさかのぼって直す | 本番障害 2 件の原因特定と恒久対策（業務）／記事「[障害対応で学んだこと](https://qiita.com/nemdull/items/460ff96a438317e69722)」 |
-| Go で、依存の向きを守った API を書く | [sf-meter-api](https://github.com/nemdull/sf-meter-api)／記事「[Go言語で気づいたシンプル設計の真髄](https://qiita.com/nemdull/items/7ff73572ccc3c78d311d)」 |
+| [sf-meter-api](https://github.com/nemdull/sf-meter-api) | SF に出てくる技術の「実現度」を返す API。Go の標準ライブラリで、層を分けて依存の向きをそろえる練習をしています |
+| [sf-meter-web](https://github.com/nemdull/sf-meter-web) | その画面。React と TypeScript |
+| [sf-meter](https://github.com/nemdull/sf-meter) | 上の 2 つをまとめた入り口 |
+| [profile_site](https://github.com/nemdull/profile_site) | [nemdull.com](https://www.nemdull.com/) のコード。リンクや書いた内容に不備がないかを、ビルドの前とページを開いたときに点検しています |
+| [sakujiru-app](https://github.com/nemdull/sakujiru-app) | 作字クリエイターのための作品投稿サイト。Ruby on Rails 6（[動いているもの](https://sakujiru-web.onrender.com/)。起動に少し時間がかかります） |
+| [zenn](https://github.com/nemdull/zenn) | 記事の原稿置き場 |
+| [atcoder](https://github.com/nemdull/atcoder) | 競技プログラミングの解答。Java |
 
-## リポジトリ
+ほかに、Expo（React Native）でモバイルアプリも作っています。こちらはまだ非公開です。
 
-| リポジトリ | 何をしているか | 技術 |
-| --- | --- | --- |
-| [sf-meter-api](https://github.com/nemdull/sf-meter-api) | SF 作品に出てくるテクノロジーを数値にする API。標準ライブラリの `net/http` を中心に層を分け、依存の向きを内側にそろえた。保存先は、PostgreSQL とメモリ上の実装を切り替えられる | Go、PostgreSQL、Docker |
-| [sf-meter-web](https://github.com/nemdull/sf-meter-web) | sf-meter の画面 | React、TypeScript、Vite |
-| [profile_site](https://github.com/nemdull/profile_site) | [nemdull.com](https://www.nemdull.com/) のコード。載せる内容に、根拠の無い主張やリンクの不備が無いかを、ビルドの前に検査している | React、TypeScript、Tailwind CSS |
-| [sakujiru-app](https://github.com/nemdull/sakujiru-app) | 作字クリエイターのための、作品投稿プラットフォーム | Ruby on Rails、Docker |
-| [zenn](https://github.com/nemdull/zenn) | 技術記事の原稿 | Markdown |
-| [atcoder](https://github.com/nemdull/atcoder) | 競技プログラミングの解答 | Java |
+## 仕事でやっていること
 
-ほかに、Expo（React Native）で個人向けのモバイルアプリを開発しています（コードは非公開）。
+- 会員向け Web システムの保守とエンハンス。要件の整理から見積、お客さんとのやりとりまでを見ています
+- Playwright と Jest で、回帰テストを自動にすること
+- 生成 AI にテストや設計書を手伝ってもらうときの決まりづくり（期待値を勝手に変えない、根拠を必ず書く、あいまいな言い回しは自動で引っかける）
+- 本番障害の原因調査と、再発防止（[そのとき学んだことを書きました](https://qiita.com/nemdull/items/460ff96a438317e69722)）
+
+Findy の「開発組織のぷち改善ハッカソン」では、Slack で匿名の相談ができる Bot を 1 日で作りました（[記事](https://qiita.com/nemdull/items/a2d72e6a5d4e82161e00)）。AWS Solutions Architect Professional の対策書（改訂 2 版）も、チームで書いています。
 
 ## 最近書いたもの
 
@@ -40,22 +42,13 @@ _Application engineer and project lead at a financial systems integrator in Japa
 - 2025-08-25 - [『初めてのGo言語 第2版』読書＆学習ログ（第3章）](https://qiita.com/nemdull/items/c51875f636e074358d1e)
 <!-- posts:end -->
 
-Findy「開発組織のぷち改善ハッカソン」では、LLM と Slack、Playwright を組み合わせた「Slack 匿名お悩み Bot」を 1 日で作りました（[記事](https://qiita.com/nemdull/items/a2d72e6a5d4e82161e00)）。AWS Solutions Architect Professional 対策書（改訂 2 版）の共著にも参加しています。
+## 使っている道具
 
-## 使っている技術
-
-| 場面 | 技術 |
+| 場面 | 道具 |
 | --- | --- |
 | 仕事 | Oracle APEX、PL/SQL、React、TypeScript、AWS（Lambda、API Gateway、RDS、S3、CloudWatch）、Playwright、Jest、Claude Code |
 | 個人開発 | Go、PostgreSQL、Docker、Ruby on Rails、Expo（React Native）、GitHub Actions |
 | ほかに使ってきたもの | Node.js、Python、Storybook、RJSF |
-
-## 経歴
-
-- 2026 年 4 月から：プロジェクトリーダー、PM 補佐（金融系 SIer）。会員向け Web システムの保守・エンハンスと、生成 AI を使ったテスト自動化・設計書整備
-- 2024 年 4 月から 2026 年 3 月：ソフトウェアエンジニア（金融系 SIer）。不動産 EC 向け管理画面の開発・保守、E2E テストの導入、障害対応
-
-くわしくは[ポートフォリオ](https://www.nemdull.com/)にまとめています。
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/nemdull/nemdull/output/github-contribution-grid-snake.svg" alt="コントリビューションの記録" />
