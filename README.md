@@ -13,7 +13,6 @@
 ## 🌐 Connect with Me
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/nemdull/"><img src="https://img.shields.io/badge/-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
   <a href="https://qiita.com/nemdull"><img src="https://img.shields.io/badge/-Qiita-55C500?style=for-the-badge&logo=qiita&logoColor=white"/></a>
   <a href="https://zenn.dev/nemdull"><img src="https://img.shields.io/badge/-Zenn-3EA8FF?style=for-the-badge&logo=zenn&logoColor=white"/></a>
   <a href="https://speakerdeck.com/nemdull"><img src="https://img.shields.io/badge/-Speaker%20Deck-009287?style=for-the-badge&logo=speakerdeck&logoColor=white"/></a>
