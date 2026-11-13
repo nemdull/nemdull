@@ -15,7 +15,7 @@ nemdull（ねむだる）です。金融系の SIer で、会員向け Web シ�
 | リポジトリ | ひとこと |
 | --- | --- |
 | [sf-meter-api](https://github.com/nemdull/sf-meter-api) | SF に出てくる技術の「実現度」を返す API。Go の標準ライブラリで、層を分けて依存の向きをそろえています。保存先（メモリと PostgreSQL）のどちらにも、同じテストを当てています |
-| [sf-meter-web](https://github.com/nemdull/sf-meter-web) | その画面。React と TypeScript。針の計器と検索つきで、API が落ちていてもサンプルデータで動きます |
+| [sf-meter-web](https://github.com/nemdull/sf-meter-web) | その画面。React と TypeScript。針の計器と検索つきで、API が落ちていてもサンプルデータで動きます。[動いている画面はこちら](https://nemdull.github.io/sf-meter-web/) |
 | [sf-meter](https://github.com/nemdull/sf-meter) | 上の 2 つをまとめた入り口。`docker compose up` で DB・API・画面がまとめて立ち上がります |
 | [profile_site](https://github.com/nemdull/profile_site) | [nemdull.com](https://www.nemdull.com/) のコード。ページが自分で自分を点検します。隕石で壊して、見つけて、直すところまでを Playwright で確かめています |
 | [sakujiru-app](https://github.com/nemdull/sakujiru-app) | 作字クリエイターのための作品投稿サイト。Ruby on Rails 6（[動いているもの](https://sakujiru-web.onrender.com/)。起動に少し時間がかかります） |
